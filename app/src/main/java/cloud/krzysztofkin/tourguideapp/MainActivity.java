@@ -31,12 +31,16 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        CityFragment fragment = new CityFragment();
-        fragmentTransaction.add(R.id.main_fragment_container, fragment);
-        fragmentTransaction.commit();
-
+        // if we're being restored from a previous state,
+        // then we don't need to do anything and should return or else
+        // we could end up with overlapping fragments.
+        if (savedInstanceState == null) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            CityFragment fragment = new CityFragment();
+            fragmentTransaction.add(R.id.main_fragment_container, fragment);
+            fragmentTransaction.commit();
+        }
     }
 
     private void loadCityFragment() {

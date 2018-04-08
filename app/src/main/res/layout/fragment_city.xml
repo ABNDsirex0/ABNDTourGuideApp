@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CityFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="City fragment" />
-</FrameLayout>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/szczecinek" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:padding="16dp"
+            android:text="By Vercyngetorix - Own work, CC BY-SA 3.0 pl, https://commons.wikimedia.org/w/index.php?curid=35817371"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Szczecinek"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:justificationMode="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="is a city in Middle Pomerania, northwestern Poland with a population of more than 40,000 (2011). Formerly in the Koszalin Voivodeship (1950–1998), it has been the capital of Szczecinek County in the West Pomeranian Voivodeship since 1999. It is an important railroad junction, located along the main Poznań - Kolobrzeg line, which crosses less important lines to Chojnice, Słupsk and Runowo Pomorskie. The city boundaries were expanded in 2009 to include Świątki and Trzesieka, a total area of 48.63 square kilometres (18.78 square miles)."
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+    </LinearLayout>
+</ScrollView>
