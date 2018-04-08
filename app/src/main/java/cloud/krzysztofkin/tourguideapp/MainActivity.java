@@ -2,6 +2,7 @@ package cloud.krzysztofkin.tourguideapp;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -38,6 +39,30 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    private void loadCityFragment() {
+        // Create new fragment and transaction
+        CityFragment newFragment = new CityFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        // Replace whatever is in the fragment_container view with this fragment,
+        // and add the transaction to the back stack
+        transaction.replace(R.id.main_fragment_container, newFragment);
+        transaction.addToBackStack(null);
+        // Commit the transaction
+        transaction.commit();
+    }
+
+    private void loadAttractionsFragment() {
+        // Create new fragment and transaction
+        AttractionsFragment newFragment = new AttractionsFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        // Replace whatever is in the fragment_container view with this fragment,
+        // and add the transaction to the back stack
+        transaction.replace(R.id.main_fragment_container, newFragment);
+        transaction.addToBackStack(null);
+        // Commit the transaction
+        transaction.commit();
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -55,9 +80,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_city) {
-            // Handle the camera action
+            loadCityFragment();
         } else if (id == R.id.nav_attractions) {
-
+            loadAttractionsFragment();
         } else if (id == R.id.nav_data) {
 
         } else if (id == R.id.nav_app) {
