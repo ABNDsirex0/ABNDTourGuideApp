@@ -3,13 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".AttractionsFragment">
+    tools:context=".CategoryFragment"
+    android:orientation="vertical">
 
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/attractions_view_pager"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"
+        android:text="category fragment" />
 
 </LinearLayout>

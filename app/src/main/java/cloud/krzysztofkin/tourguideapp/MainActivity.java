@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
 
     private void loadCityFragment() {
         // Create new fragment and transaction
-        CityFragment newFragment = new CityFragment();
+        Fragment newFragment = new CityFragment();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         // Replace whatever is in the fragment_container view with this fragment,
         // and add the transaction to the back stack
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
 
     private void loadAttractionsFragment() {
         // Create new fragment and transaction
-        AttractionsFragment newFragment = new AttractionsFragment();
+        Fragment newFragment = new AttractionsFragment();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         // Replace whatever is in the fragment_container view with this fragment,
         // and add the transaction to the back stack
