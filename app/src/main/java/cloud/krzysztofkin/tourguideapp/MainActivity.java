@@ -87,11 +87,12 @@ public class MainActivity extends AppCompatActivity
             loadCityFragment();
         } else if (id == R.id.nav_attractions) {
             loadAttractionsFragment();
-        } else if (id == R.id.nav_data) {
+        } else if (id == R.id.nav_history) {
 
         } else if (id == R.id.nav_app) {
 
         }
+        setTitle(item.getTitle());
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

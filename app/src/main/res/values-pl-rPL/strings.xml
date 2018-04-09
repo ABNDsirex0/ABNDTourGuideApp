@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="history">Historia</string>
+    <string name="about">O aplikacji</string>
+    <string name="attractions">Atrakcje</string>
+    <string name="city">Szczecinek</string>
+    <string name="city_image_licence">By Vercyngetorix - praca własna, CC BY-SA 3.0 pl, https://commons.wikimedia.org/w/index.php?curid=35817371</string>
+    <string name="about_city">"miasto w północno-zachodniej Polsce, na Pomorzu Zachodnim, siedziba władz powiatu szczecineckiego, gminy miejskiej i wiejskiej Szczecinek. Miasto na pograniczu Pojezierza Drawskiego i Pojezierza Szczecineckiego, położone pomiędzy trzema jeziorami: Trzesiecko, Wielimie i Wilczkowo. Założony w 1310 roku przez księcia Warcisława IV od razu otrzymał prawa miejskie.  W Szczecinku krzyżują się droga krajowa nr 11 i nr 20, a swój bieg rozpoczyna droga wojewódzka nr 172. Miasto jest też istotnym węzłem kolejowym, łącząc trasy nr 210, 404 i 405.  Według danych z 30 czerwca 2016 r. miasto miało 40 336 mieszkańców[2]. Czyni go to szóstym pod względem liczby mieszkańców ośrodkiem miejskim województwa zachodniopomorskiego."</string>
+</resources>

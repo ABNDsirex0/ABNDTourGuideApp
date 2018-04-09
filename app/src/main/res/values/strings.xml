@@ -5,4 +5,10 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
+    <string name="city">Szczecinek</string>
+    <string name="attractions">Attractions</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+    <string name="city_image_licence">By Vercyngetorix - Own work, CC BY-SA 3.0 pl, https://commons.wikimedia.org/w/index.php?curid=35817371</string>
+    <string name="about_city">is a city in Middle Pomerania, northwestern Poland with a population of more than 40,000 (2011). Formerly in the Koszalin Voivodeship (1950–1998), it has been the capital of Szczecinek County in the West Pomeranian Voivodeship since 1999. It is an important railroad junction, located along the main Poznań - Kolobrzeg line, which crosses less important lines to Chojnice, Słupsk and Runowo Pomorskie. The city boundaries were expanded in 2009 to include Świątki and Trzesieka, a total area of 48.63 square kilometres (18.78 square miles).</string>
 </resources>
