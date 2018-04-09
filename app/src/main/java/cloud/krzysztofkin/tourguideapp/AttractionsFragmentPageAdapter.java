@@ -6,14 +6,14 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 public class AttractionsFragmentPageAdapter extends FragmentPagerAdapter {
-    public AttractionsFragmentPageAdapter(FragmentManager fm) {
+    AttractionsFragmentPageAdapter(FragmentManager fm) {
         super(fm);
     }
 
     /**
      * Return the Fragment associated with a specified position.
      *
-     * @param position
+     * @param position position on page adapter
      */
     @Override
     public Fragment getItem(int position) {
