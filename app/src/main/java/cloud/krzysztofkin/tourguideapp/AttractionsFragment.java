@@ -2,6 +2,7 @@ package cloud.krzysztofkin.tourguideapp;
 
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -33,6 +34,9 @@ public class AttractionsFragment extends Fragment {
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
 
+        //TabLayout
+        TabLayout tabLayout =  rootView.findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
 
         return rootView;
     }
