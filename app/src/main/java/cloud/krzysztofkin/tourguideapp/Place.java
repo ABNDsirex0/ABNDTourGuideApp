@@ -11,12 +11,11 @@ public class Place implements Parcelable {
     private int imageId;
 
     /**
-     *
-     * @param category category
-     * @param name name
+     * @param category         category
+     * @param name             name
      * @param shortDescription short description
-     * @param longDescription long description
-     * @param imageId image res Id
+     * @param longDescription  long description
+     * @param imageId          image res Id
      */
     Place(String category, String name, String shortDescription, String longDescription, int imageId) {
         this.category = category;
@@ -39,32 +38,19 @@ public class Place implements Parcelable {
         return shortDescription;
     }
 
-    public void setShortDescription(String shortDescription) {
-        this.shortDescription = shortDescription;
-    }
 
     public String getLongDescription() {
         return longDescription;
     }
 
-    public void setLongDescription(String longDescription) {
-        this.longDescription = longDescription;
-    }
 
     public int getImageId() {
         return imageId;
     }
 
-    public void setImageId(int imageId) {
-        this.imageId = imageId;
-    }
 
     public String getCategory() {
         return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
     }
 
     //****************Parceling part**************************
