@@ -16,6 +16,8 @@ import android.view.ViewGroup;
  */
 public class AttractionsFragment extends Fragment {
 
+    ViewPager viewPager;
+    TabLayout tabLayout;
 
     public AttractionsFragment() {
         // Required empty public constructor
@@ -29,17 +31,18 @@ public class AttractionsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_attractions, container, false);
 
         //Create viewPager to swipe between categories
-        ViewPager viewPager = rootView.findViewById(R.id.attractions_view_pager);
+        viewPager = rootView.findViewById(R.id.attractions_view_pager);
         // Create an adapter that knows which fragment should be shown on each page
         AttractionsFragmentPageAdapter adapter = new AttractionsFragmentPageAdapter(getFragmentManager());
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
 
         //TabLayout
-        TabLayout tabLayout =  rootView.findViewById(R.id.sliding_tabs);
+        tabLayout =  rootView.findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         return rootView;
     }
+
 
 }

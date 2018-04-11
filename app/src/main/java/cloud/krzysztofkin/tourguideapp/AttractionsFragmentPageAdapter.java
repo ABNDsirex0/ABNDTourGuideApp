@@ -4,8 +4,9 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 
-public class AttractionsFragmentPageAdapter extends FragmentPagerAdapter {
+public class AttractionsFragmentPageAdapter extends FragmentStatePagerAdapter {
     AttractionsFragmentPageAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -17,7 +18,8 @@ public class AttractionsFragmentPageAdapter extends FragmentPagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
-        return new CategoryFragment();
+       return  CategoryFragment.newInstance(position);
+      //  return  new BlankFragment();
     }
 
     /**
@@ -25,7 +27,7 @@ public class AttractionsFragmentPageAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 4;
+        return DataProvider.getListOfCategories().size();
     }
 
     /**
@@ -40,6 +42,6 @@ public class AttractionsFragmentPageAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        return "title";
+        return DataProvider.getListOfCategories().get(position);
     }
 }

@@ -20,4 +20,8 @@
     </string-array>
     <string name="place_1">history;tower;tower of the church of St. Nicholas; the tower is a remnant of the church of St. St. Nicholas, which was the oldest religious building in the city. Most probably it comes from the mid-sixteenth century. It is basically the oldest preserved monument in Szczecinek. Built in the Gothic style of material obtained after the demolition of the monastery located on the hill Marientron. From the second half of the 16th century, the church of St. Nicholas was a Lutheran temple. The earliest image of the temple is among the views of the West Pomeranian cities on the map of Lubinus and comes from 1612.;tower</string>
     <string name="place_2">history;castle;Pomeranian Duke\'s Castle;As early as at the end of XIII century, there was a Slavic settlement on the island nearby the place from which the Nizica River flows. The border nature of the settlement and its excellent defensive qualities contributed to the decision made around the year 1310 by Duke Warcislaw IV to build there a castle. This way the castle of Szczecinek became the seat of Starostes who in the name of the duke held the power here. First of them was Otto von Wedel. At the same time, the settlement on the mainland was awarded town privileges.;castle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_place">PlaceActivity</string>
 </resources>
