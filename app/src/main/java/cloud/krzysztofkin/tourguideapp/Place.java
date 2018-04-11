@@ -25,7 +25,6 @@ public class Place implements Parcelable {
         this.imageId = imageId;
     }
 
-
     public String getName() {
         return name;
     }
@@ -38,16 +37,13 @@ public class Place implements Parcelable {
         return shortDescription;
     }
 
-
     public String getLongDescription() {
         return longDescription;
     }
 
-
     public int getImageId() {
         return imageId;
     }
-
 
     public String getCategory() {
         return category;

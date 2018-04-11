@@ -15,6 +15,7 @@ public class DataProvider {
 
     /**
      * If list of places is empty return true
+     *
      * @return true if list of places is empty
      */
     static boolean isEmpty() {
@@ -23,6 +24,7 @@ public class DataProvider {
 
     /**
      * Adds new Place to the list
+     *
      * @param placeToAdd new place to add
      */
     static void addPlace(Place placeToAdd) {
@@ -32,6 +34,7 @@ public class DataProvider {
 
     /**
      * Add new category to list of categories
+     *
      * @param newCategory category name
      */
     private static void addCategory(String newCategory) {
@@ -49,6 +52,7 @@ public class DataProvider {
 
     /**
      * Return list of places in specific category
+     *
      * @param categoryNr category number on list
      * @return list of places
      */
@@ -64,6 +68,7 @@ public class DataProvider {
 
     /**
      * Return list of categories
+     *
      * @return list of categories
      */
     public static ArrayList<String> getListOfCategories() {
@@ -87,9 +92,10 @@ public class DataProvider {
 
     /**
      * Add sample data to list
+     *
      * @param numberOfCategories number Of Categories
-     * @param countInCategory number places In Category
-     * @param imageId imageId
+     * @param countInCategory    number places In Category
+     * @param imageId            imageId
      */
     public static void addSampleData(int numberOfCategories, int countInCategory, int imageId) {
         for (int categoryNr = 0; categoryNr < numberOfCategories; categoryNr++) {

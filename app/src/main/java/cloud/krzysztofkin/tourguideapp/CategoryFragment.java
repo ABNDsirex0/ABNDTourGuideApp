@@ -1,6 +1,5 @@
 package cloud.krzysztofkin.tourguideapp;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,7 +12,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-
 public class CategoryFragment extends Fragment {
 
     private static final String ARG_CATEGORY_NR = "categoryNr";
@@ -24,7 +22,6 @@ public class CategoryFragment extends Fragment {
     public CategoryFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -43,12 +40,11 @@ public class CategoryFragment extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 Place currentPlace = places.get(position);
 
-                Intent placeIntent = new Intent(getActivity(),PlaceActivity.class);
-                placeIntent.putExtra(PlaceActivity.PLACE,currentPlace);
+                Intent placeIntent = new Intent(getActivity(), PlaceActivity.class);
+                placeIntent.putExtra(PlaceActivity.PLACE, currentPlace);
                 startActivity(placeIntent);
             }
         });
-
         return rootView;
     }
 
@@ -59,7 +55,7 @@ public class CategoryFragment extends Fragment {
      * @param categoryNr category number for fragment.
      * @return A new instance of fragment CategoryFragment.
      */
-    public  static CategoryFragment newInstance(int categoryNr) {
+    public static CategoryFragment newInstance(int categoryNr) {
         CategoryFragment fragment = new CategoryFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_CATEGORY_NR, categoryNr);
@@ -78,7 +74,5 @@ public class CategoryFragment extends Fragment {
         if (getArguments() != null) {
             mCategory = getArguments().getInt(ARG_CATEGORY_NR);
         }
-
-
     }
 }
