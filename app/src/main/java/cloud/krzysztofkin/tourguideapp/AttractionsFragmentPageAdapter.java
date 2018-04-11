@@ -17,7 +17,7 @@ public class AttractionsFragmentPageAdapter extends FragmentStatePagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
-       return  CategoryFragment.newInstance(position);
+        return CategoryFragment.newInstance(position);
     }
 
     /**
