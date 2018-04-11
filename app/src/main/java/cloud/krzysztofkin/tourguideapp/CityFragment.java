@@ -24,9 +24,7 @@ public class CityFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_city, container, false);
-
-        return rootView;
+        return inflater.inflate(R.layout.fragment_city, container, false);
     }
 
 }

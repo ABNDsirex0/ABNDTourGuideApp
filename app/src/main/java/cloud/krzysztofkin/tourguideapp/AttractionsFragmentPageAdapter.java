@@ -3,7 +3,6 @@ package cloud.krzysztofkin.tourguideapp;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 public class AttractionsFragmentPageAdapter extends FragmentStatePagerAdapter {
@@ -19,7 +18,6 @@ public class AttractionsFragmentPageAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
        return  CategoryFragment.newInstance(position);
-      //  return  new BlankFragment();
     }
 
     /**

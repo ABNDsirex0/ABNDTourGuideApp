@@ -9,11 +9,7 @@ public class DataProvider {
     private static ArrayList<String> listOfCategories = new ArrayList<>();
 
     static boolean isEmpty() {
-        if (listOfPlaces.isEmpty())
-            return true;
-        else
-            return false;
-
+        return listOfPlaces.isEmpty();
     }
 
     static void addPlace(Place placeToAdd) {
