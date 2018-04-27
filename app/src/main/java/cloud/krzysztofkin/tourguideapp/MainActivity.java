@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         //prepare dataprovider
         if (DataProvider.isEmpty()) {
             DataProvider.addDataFromRes(this);
-            DataProvider.addSampleData(3, 30, R.drawable.forest_path);
         }
 
         setContentView(R.layout.activity_main);

@@ -13,41 +13,8 @@ public class DataProvider {
         throw new IllegalStateException("Utility class");
     }
 
-    /**
-     * If list of places is empty return true
-     *
-     * @return true if list of places is empty
-     */
     static boolean isEmpty() {
         return listOfPlaces.isEmpty();
-    }
-
-    /**
-     * Adds new Place to the list
-     *
-     * @param placeToAdd new place to add
-     */
-    static void addPlace(Place placeToAdd) {
-        listOfPlaces.add(placeToAdd);
-        addCategory(placeToAdd.getCategory());
-    }
-
-    /**
-     * Add new category to list of categories
-     *
-     * @param newCategory category name
-     */
-    private static void addCategory(String newCategory) {
-        boolean onList = false;
-        for (String category : listOfCategories) {
-            if (category.equals(newCategory)) {
-                onList = true;
-                break;
-            }
-        }
-        if (!onList) {
-            listOfCategories.add(newCategory);
-        }
     }
 
     /**
@@ -76,11 +43,12 @@ public class DataProvider {
     }
 
     /**
-     * Adds data from res file to list
+     * Adds data from res file to
      */
     public static void addDataFromRes(Context context) {
         Place place;
         int placeImageID;
+        //todo ogarnąć import arraya jest wstring rozbićpo średniku i dodać obiekt
         String[] places = context.getResources().getStringArray(R.array.places);
         for (String placeString : places) {
             String[] placeData = placeString.split(";");
@@ -91,21 +59,30 @@ public class DataProvider {
     }
 
     /**
-     * Add sample data to list
+     * Add place to place list and category to category list
      *
-     * @param numberOfCategories number Of Categories
-     * @param countInCategory    number places In Category
-     * @param imageId            imageId
+     * @param placeToAdd place object to add
      */
-    public static void addSampleData(int numberOfCategories, int countInCategory, int imageId) {
-        for (int categoryNr = 0; categoryNr < numberOfCategories; categoryNr++) {
-            for (int placeNr = 0; placeNr < countInCategory; placeNr++) {
-                addPlace(new Place("category " + categoryNr,
-                        "Name " + categoryNr + "." + placeNr,
-                        "short description for place " + placeNr,
-                        "long description for place " + placeNr,
-                        imageId));
+    static void addPlace(Place placeToAdd) {
+        listOfPlaces.add(placeToAdd);
+        addCategory(placeToAdd.getCategory());
+    }
+
+    /**
+     * If category is not on list Add category to category list
+     *
+     * @param newCategory category name to add
+     */
+    private static void addCategory(String newCategory) {
+        boolean onList = false;
+        for (String category : listOfCategories) {
+            if (category.equals(newCategory)) {
+                onList = true;
+                break;
             }
+        }
+        if (!onList) {
+            listOfCategories.add(newCategory);
         }
     }
 }
