@@ -25,7 +25,10 @@
         <item>@string/place_10</item>
         <item>@string/place_11</item>
         <item>@string/place_12</item>
-        <item>@string/place_holder</item>
+        <item>@string/place_13</item>
+        <item>@string/place_14</item>
+        <item>@string/place_15</item>
+        <item>@string/place_16</item>
     </string-array>
     <string name="place_holder">category;name;description;long description;forest_path</string>
     <string name="place_1">history;tower;tower of the church of St. Nicholas; the tower is a remnant of the church of St. St. Nicholas, which was the oldest religious building in the city. Most probably it comes from the mid-sixteenth century. It is basically the oldest preserved monument in Szczecinek. Built in the Gothic style of material obtained after the demolition of the monastery located on the hill Marientron. From the second half of the 16th century, the church of St. Nicholas was a Lutheran temple. The earliest image of the temple is among the views of the West Pomeranian cities on the map of Lubinus and comes from 1612.;tower</string>
@@ -40,10 +43,13 @@
     <string name="place_10">activity;name;description;long description;forest_path</string>
     <string name="place_11">activity;name;description;long description;forest_path</string>
     <string name="place_12">activity;name;description;long description;forest_path</string>
+    <string name="place_13">food;name;description;long description;forest_path</string>
+    <string name="place_14">food;name;description;long description;forest_path</string>
+    <string name="place_15">food;name;description;long description;forest_path</string>
+    <string name="place_16">food;name;description;long description;forest_path</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_place">PlaceActivity</string>
     <string name="nature">Nature</string>
     <string name="recreation">Recreation</string>
-    <string name="food">Food</string>
 </resources>
