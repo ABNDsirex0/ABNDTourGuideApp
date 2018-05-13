@@ -35,8 +35,7 @@
                 android:id="@+id/place_long_description_activity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
-                tools:text="@string/sample_long_description" />
+                android:padding="16dp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

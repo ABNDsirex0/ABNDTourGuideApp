@@ -43,12 +43,11 @@ public class DataProvider {
     }
 
     /**
-     * Adds data from res file to
+     * Adds data from res file to app data
      */
     public static void addDataFromRes(Context context) {
         Place place;
         int placeImageID;
-        //todo ogarnąć import arraya jest wstring rozbićpo średniku i dodać obiekt
         String[] places = context.getResources().getStringArray(R.array.places);
         for (String placeString : places) {
             String[] placeData = placeString.split(";");

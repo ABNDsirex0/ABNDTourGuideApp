@@ -31,6 +31,7 @@
     <string name="nature">Nature</string>
     <string name="recreation">Recreation</string>
     <string name="food">food</string>
+    <string name="about_app" >The application uses information from wikipedia, from city websites and state forests</string>
     <string-array name="places">
         <item>@string/place_1</item>
         <item>@string/place_2</item>

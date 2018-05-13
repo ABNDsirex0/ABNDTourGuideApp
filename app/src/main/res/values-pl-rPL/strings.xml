@@ -50,4 +50,5 @@
         <item>@string/place_15</item>
         <item>@string/place_16</item>
     </string-array>
+    <string name="about_app">Aplikacja wykorzystuje informacje z wikipedii, ze stron internetowych miasta oraz lasów państwowych</string>
 </resources>
