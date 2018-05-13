@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass. Show attraction details
  */
 public class AttractionsFragment extends Fragment {
 
