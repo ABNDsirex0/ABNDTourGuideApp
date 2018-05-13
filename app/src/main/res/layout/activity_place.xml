@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:contentDescription="@string/image_of_place"
-        tools:src="@drawable/forest_path" />
+         />
 
     <ScrollView
         android:layout_width="match_parent"

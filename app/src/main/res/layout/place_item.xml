@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:contentDescription="@string/image_of_place"
-        tools:src="@drawable/forest_path" />
+        tools:src="@drawable/castle" />
 
     <TextView
         android:id="@+id/place_name"
