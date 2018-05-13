@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="places">
-        <item>@string/place_1</item>
-        <item>@string/place_2</item>
-        <item>@string/place_3</item>
-        <item>@string/place_4</item>
-        <item>@string/place_5</item>
-        <item>@string/place_6</item>
-        <item>@string/place_7</item>
-        <item>@string/place_8</item>
-        <item>@string/place_9</item>
-        <item>@string/place_10</item>
-        <item>@string/place_11</item>
-        <item>@string/place_12</item>
-        <item>@string/place_13</item>
-        <item>@string/place_14</item>
-        <item>@string/place_15</item>
-        <item>@string/place_16</item>
-    </string-array>
+
     <string name="app_name">Tour Guide App</string>
     <string name="history">Historia</string>
     <string name="about">O aplikacji</string>
@@ -41,12 +24,30 @@
     <string name="place_6">przyroda;Dęby Wilczkowskie;Rezerwat przyrody "Dęby Wilczkowskie" ;Celem ochrony jest zachowanie starodrzewu dębowego z kwaśną buczyną niżową (Luzulo pilosae-Fagetum) i grądem subatlantyckim (Stellario holostae-Carpinetum betuli) z cennymi stanowiskami roślin chronionych i zagrożonych wyginięciem, przede wszystkim ze złocią pochwolistną (Gagea spathacea) oraz złocią małą (Gagea minima), śnieżycą wiosenną (Leucojum vernum), przytulią wonną (Galium odoratum), łuskiewnikiem różowym (Lathraea squamaria).;wilczkowskie</string>
     <string name="place_7">przyroda;Bagno Ciemino;Rezerwat przyrody Bagno Ciemino;rezerwat o powierzchni 400,30 ha, utworzony 25 lipca 1997 roku w celu zachowania ze względów naukowych i dydaktycznych cennych ekosystemów leśnych i torfowiskowych, charakterystycznych dla Pojezierza Drawskiego[1]. Znajduje się w województwie zachodniopomorskim, w powiecie szczecineckim, we wschodniej części gminy Borne Sulinowo, 1 km na północny wschód od Łączna i 3,5 km na zachód od Jelenina.;ciemino</string>
     <string name="place_8">przyroda;Diabelskie Pustacie;Rezerwat przyrody Diabelskie Pustacie;Celem ochrony przyrody w rezerwacie jest zachowanie układów biocenotycznych i krajobrazu dwóch szlaków sandrowych – młodszego szlaku sandrowego i szlaku Płytnicy oraz leżących w ich obrębie obniżeń wytopiskowych i wzgórz o charakterze ostańców erozyjnych.Rezerwat znajduje się na terenie dawnego poligonu „Borne Sulinowo". Obejmuje najlepiej zachowane na Pomorzu Zachodnim wielkoobszarowe wrzosowiska.;pustacie</string>
-    <string name="place_9">aktywnosc;nazwa;opis;długi opis;forest_path</string>
-    <string name="place_10">aktywnosc;nazwa;opis;długi opis;forest_path</string>
-    <string name="place_11">aktywnosc;nazwa;opis;długi opis;forest_path</string>
+    <string name="place_9">aktywnosc;Muzeum;Muzeum Regionalne w Szczecinku ;Muzeum Regionalne w Szczecinku jest jednym z najstarszych na całym Pomorzu Zachodnim. Powstało bowiem już w 1914 roku i tylko niektóre muzea pomorskie mogą poszczycić się starszą metryką. Tradycje muzealne należałoby jednak przesunąć aż do roku 1866, kiedy to emerytowany major pruski F. W. Kasiski zorganizował ogromną - jak na tamte czasy - wystawę archeologiczną w szczecineckiej zbrojowni.;muzeum</string>
+    <string name="place_10">aktywnosc;Centrum Tenisowe;Regionalne Centrum Tenisowe;Regionalne Centrum Tenisowe w Szczecinku, to jeden z największych tego typu obiektów w Polsce północnej, gwarantujący najwyższy poziom treningów dla wyczynowców i wspaniałą zabawę dla początkujących sportowców. Cały obiekt dostosowany jest do potrzeb osób niepełnosprawnych.;tennis</string>
+    <string name="place_11">aktywnosc;Basen;Basen Miejski;Już od 15 lat szczecinecki basen gwarantuje najwyższy standard usług - zarówno rekreacyjnych jak i sportowych. Fachową pomocą służą profesjonalni instruktorzy pływania, oraz doskonale przygotowani i doświadczeni ratownicy. Niemal każdego dnia w roku jest miejscem treningu setek dzieci i młodzieży, którzy realizują swój program treningowy - zarówno ten szkolny, jak i klubowy,m czy też indywidualny. Po treningu z powodzeniem znajdzie się miejsce i pomysł na regenerację zmęczonego ciała.;pool</string>
     <string name="place_12">aktywnosc;nazwa;opis;długi opis;forest_path</string>
     <string name="place_13">jedzenie;nazwa;opis;długi opis;forest_path</string>
     <string name="place_14">jedzenie;nazwa;opis;długi opis;forest_path</string>
     <string name="place_15">jedzenie;nazwa;opis;długi opis;forest_path</string>
     <string name="place_16">jedzenie;nazwa;opis;długi opis;forest_path</string>
+    <string-array name="places">
+        <item>@string/place_1</item>
+        <item>@string/place_2</item>
+        <item>@string/place_3</item>
+        <item>@string/place_4</item>
+        <item>@string/place_5</item>
+        <item>@string/place_6</item>
+        <item>@string/place_7</item>
+        <item>@string/place_8</item>
+        <item>@string/place_9</item>
+        <item>@string/place_10</item>
+        <item>@string/place_11</item>
+        <item>@string/place_12</item>
+        <item>@string/place_13</item>
+        <item>@string/place_14</item>
+        <item>@string/place_15</item>
+        <item>@string/place_16</item>
+    </string-array>
 </resources>
